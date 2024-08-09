@@ -1,0 +1,56 @@
+package p1;
+
+import java.util.Scanner;
+
+public class SwitchCond {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		Scanner scanner = new Scanner(System.in);
+//		System.out.println( "Input the value a :");
+//		int a= scanner.nextInt();
+//		scanner = new Scanner(System.in);
+//		System.out.println( "Input the value b :");
+//		int b= scanner.nextInt();
+//		System.out.println(a+b);
+		
+		/*
+		 *  Switch ( variable or integer expression){
+		 *  
+		 *   case a:
+		 *   
+		 *   break;
+		 *   Case b:
+		 *    break;
+		 *    
+		 *    default:
+		 *    
+		 *    
+		 *  
+		 *  }
+		 *  
+		 * 
+		 * 
+		 * 
+		 * */
+		String airthmaticFunction = "div";
+		int c = 10;
+		int d = 20;
+				
+		switch(airthmaticFunction){
+		
+		case "sum":
+			System.out.println("Sum of the values "+ (c+d));
+		case "sub":
+			System.out.println(d-c);
+		case "mul":
+			System.out.println(c*d);
+		case "div":
+			System.out.println(d/c);
+			
+		}
+		
+		
+	}
+
+}

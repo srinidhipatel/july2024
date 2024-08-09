@@ -1,0 +1,14 @@
+
+public class DAtaTypes {
+
+	public static void main(String[] args) {
+		// int , String, Char, double, boolean, float
+		int age=25;
+		String name = "Srinidhi";
+		char c = 'a';
+		float h = 5.7f;
+		double height = 5.7;
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package p1;
+
+public class DoWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 *  do{
+		 *  
+		 *  statements
+		 *  }while(condition)
+		 * 
+		 *  do while statement will always execute once 
+		 * 
+		 * */
+		
+//		int i = 10;
+//		do {
+//			System.out.println("Value of I : "+ i);
+//			i++;
+//		}while(i<=20);
+//		
+//		int i = 100;
+//		do {
+//			System.out.println("Value of I : "+ i);
+//			i++;
+//		}while(i<=20);
+//		
+
+	}
+
+}

@@ -1,0 +1,58 @@
+
+public class CondIFElse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		String signalColor="GREEN";
+//		if(signalColor == "RED") {
+//			System.out.println("stop the car");
+//			System.out.println("Stop the car");
+//			System.out.println("Stop the car");
+//			System.out.println("Stop the car");
+//			System.out.println("Stop the car");
+//		}else {
+//			System.out.println("Start my car");
+//		}
+		
+		/*
+		 *  if(condetion is true){
+		 *  execute if statements
+		 *  statement 1
+		 *  state
+		 *  }else{ // If the condetion is failed then it will go to else blocks
+		 *  Statement 1
+		 *  Stement 2
+		 *  
+		 *  }
+		 *  
+		 *  
+		 *  if you are scoring above 35 --> Pass
+		 *   below 35 --> Fail
+		 *   
+		 *  
+		 * 
+		 * */
+		
+		int marks = 15;
+		if(marks >35) {
+			System.out.println("Student is passed");
+		}else {
+			System.out.println("Student is failed");
+		}
+		
+		String signalColor="GREEN";
+		
+		if(signalColor == "RED") {
+			System.out.println("stop the car");
+		}else if(signalColor == "GREEN") {
+			System.out.println("Start my car");
+		}else if(signalColor == "YELLOW") {
+			System.out.println("Ready to stop");
+		}else {
+			System.out.println("Donot take any action");
+		}
+		
+		
+	}
+
+}

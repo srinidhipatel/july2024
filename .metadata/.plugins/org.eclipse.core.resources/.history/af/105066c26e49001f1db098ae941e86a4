@@ -1,0 +1,17 @@
+
+public class DAtaTypes {
+
+	public static void main(String[] args) {
+		// int , String, Char, double, boolean, float
+		int age=25;
+		String name = "Srinidhi";
+		char c = 'a';
+		float h = 5224334.7f; // 7 digit
+		double height = 5990009903466456.7; // 16 digit
+		boolean amIadult=true;
+		
+		System.out.println(age);//syso/sout + ctrl + space --> Select
+		System.out.println();
+	}
+
+}

@@ -1,0 +1,24 @@
+package p1;
+
+public class DoWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 *  do{
+		 *  
+		 *  statements
+		 *  }while(condition)
+		 * 
+		 * */
+		
+		int i = 10;
+		do {
+			System.out.println("Value of I : "+ i);
+		}while()
+		
+		
+
+	}
+
+}

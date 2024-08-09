@@ -1,0 +1,40 @@
+package p1;
+
+public class Forloop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		System.out.println("Amruta");
+//		System.out.println("Amruta");
+//		System.out.println("Amruta");
+//		System.out.println("Amruta");
+//		System.out.println("Amruta");
+//		System.out.println("Amruta");
+//		System.out.println("Amruta");
+//		
+		/*
+		 *  Syntax
+		 *  for(intiazation; condition; increment/decrement){
+		 *  
+		 *  Statement
+		 *  }
+		 * 
+		 *  1. intializaton --> Will happen only one time
+		 *  2. check the condetion
+		 *  3. If condition true or satisifies
+		 *  4. Execute the statement within loop
+		 *  5. Increment the value by 1 (++)
+		 *  6. repeat the steps from 2
+		 *  
+		 * 
+		 * */
+		for(int i=0; i<10;i++) {
+			
+			System.out.println(" print the value of i ="+ i);
+			
+		}
+
+	}
+
+}

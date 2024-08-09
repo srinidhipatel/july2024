@@ -1,0 +1,11 @@
+
+public class DAtaTypes {
+
+	public static void main(String[] args) {
+		// int , String, Char, double, boolean, float
+		int iAge=25;
+		
+
+	}
+
+}

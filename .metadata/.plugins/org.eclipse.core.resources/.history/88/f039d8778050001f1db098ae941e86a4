@@ -1,0 +1,18 @@
+
+public class MultiArray {
+
+	public static void main(String[] args) {
+		
+		int[] iArr = {1,2,3,4,5};
+		System.out.println(iArr[1]);
+	
+		int iArrMul[][] = {{1,2,3},{4,5,6}}; // 2x3
+		System.out.println("to print 1 :"+iArrMul[0][0]);
+		System.out.println("to prin :"+iArrMul[1][1]);
+		System.out.println("to print 1 :"+iArrMul[1][2]);
+		
+		
+		int[][] iMul2= {{1,2,3},{15,6,17},{25,15},{3,7},{10,20,30}}
+	}
+
+}

@@ -1,0 +1,19 @@
+package p1;
+
+import java.util.Scanner;
+
+public class SwitchCond {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.println( "Input the value a :");
+		int a= scanner.nextInt();
+		scanner = new Scanner(System.in);
+		int b= scanner.nextInt();
+		
+		System.out.println(a+b);
+
+	}
+
+}

@@ -1,0 +1,15 @@
+
+public class CondIFElse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String signalColor="RED";
+		if(signalColor == "RED") {
+			System.out.println("Stop the car");
+		}else {
+			System.out.println("Start my car");
+		}
+		
+	}
+
+}
